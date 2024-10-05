@@ -1,10 +1,16 @@
-REMOTES:
-  Matrixx-Devices:     <remote name="Matrixx-Devices" fetch="https://github.com/Matrixx-Devices" clone-depth="1" />
-  CuriousNom:     <remote name="CuriousNom" fetch="https://github.com/CuriousNom" clone-depth="1" />
-PROJECTS:
-  device/samsung/gta4l-common|android_device_samsung_gta4l-common:     <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="CuriousNom" />
-  device/samsung/gta4lwifi|android_device_samsung_gta4lwifii:     <project path="device/samsung/gta4lwifi" name="android_device_samsung_gta4lwifii" remote="CuriousNom" />
-  vendor/samsung/gta4lwifi|android_vendor_samsung_gta4lwifi:     <project path="vendor/samsung/gta4lwifi" name="android_vendor_samsung_gta4lwifi" remote="Matrixx-Devices" />
-  hardware/samsung|android_hardware_samsung:     <project path="hardware/samsung" name="android_hardware_samsung" remote="CuriousNom" />
-  kernel/samsung/gta4l|android_kernel_samsung_gta4l:     <project path="kernel/samsung/gta4l" name="android_kernel_samsung_gta4l" remote="Matrixx-Devices" />
-  vendor/samsung/gta4l-common|android_vendor_samsung_gta4l-common:     <project path="vendor/samsung/gta4l-common" name="android_vendor_samsung_gta4l-common" remote="Matrixx-Devices" />
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+<!-- Remotes -->
+  <remote name="Matrixx-Devices" fetch="https://github.com/Matrixx-Devices" clone-depth="1" />
+  <remote name="CuriousNom" fetch="https://github.com/CuriousNom" clone-depth="1" />
+
+<!-- Device - Repos -->
+  <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="CuriousNom" />
+  <project path="device/samsung/gta4lwifi" name="android_device_samsung_gta4lwifii" remote="CuriousNom" />
+  <project path="vendor/samsung/gta4lwifi" name="android_vendor_samsung_gta4lwifi" remote="Matrixx-Devices" />
+  <project path="vendor/samsung/gta4l-common" name="android_vendor_samsung_gta4l-common" remote="Matrixx-Devices" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="CuriousNom" />
+  <project path="kernel/samsung/gta4l" name="android_kernel_samsung_gta4l" remote="Matrixx-Devices" />
+
+  </manifest>
